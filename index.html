@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <!--================= Custom CSS ================    -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div>
+    <div class="top_message">
+        <span onclick="pauseMessage()">
+        <i class="fas fa-times"></i>
+        </span>
+           <div class="messagecount">
+               <p>Сообщения :  <span id="counter"> 0 </span></p>
+           </div>
+
+
+    </div>
+
+    <div class="message_list">
+
+        <div id="message_lists" class="messagecount_list">
+
+        </div>
+    </div>
+   <div class="bottom_blok">
+       <div class="bottom_message">
+           <button class="messagecount_bottom" onclick="startMessageList()">
+               Сообщения :  <span id="btn_count"> 0 </span>
+           </button>
+       </div>
+
+       <button class="send_message" onclick="startMessage()">
+        send
+       </button>
+
+   </div>
+
+</div>
+
+
+
+<!--=================== Font Awesome ===============-->
+<script src="https://kit.fontawesome.com/b04a75b782.js" crossorigin="anonymous"></script>
+<!--============== Custom Js ==================-->
+<script src="js/script.js"></script>
+</body>
+</html>

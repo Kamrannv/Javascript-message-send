@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.top_message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    width: 550px;
+    font-size: 25px;
+    margin-top: 34px;
+}
+.top_message p{
+    font-weight: bold;
+    margin-left: 8px;
+}
+.top_message i {
+    cursor: pointer;
+}
+.messagecount{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom_blok{
+    display: flex;
+    flex-direction: row;
+}
+
+.message_list{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    width: 550px;
+    height: auto;
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+.bottom_message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    width: 350px;
+    font-size: 25px;
+    margin-top:5px;
+}
+
+.messagecount_bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    width: 350px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.send_message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 195px;
+    font-size: 25px;
+    margin-top:5px;
+}
